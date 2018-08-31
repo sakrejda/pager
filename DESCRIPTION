@@ -3,7 +3,7 @@ Type: Package
 Title: Spread ggplots over multiple pages
 Version: 0.0.1
 Date: 2018-08-22
-Authors@R: c(person("Krzysztof", "Sakrejda", email = "k@fawkes.io", role = c("cre", "aut")),
+Authors@R: person("Krzysztof", "Sakrejda", email = "k@fawkes.io", role = c("cre", "aut"))
 Description: ggplot doesn't provide a facet_wrap-like facility to spread plots over multiple pages.  This package manipulates plot lists for certian plots and provides functions to style them.  It handles only very specific plots (time-series, points on time-series, bounds for both, x-continuous/y-factor with bounds, and maps)  because the goal is to support specific packages.
 License: GPL-3
 Imports:
